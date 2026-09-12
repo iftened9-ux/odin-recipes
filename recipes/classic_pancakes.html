@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <h1>Classic Pancakes Recipe</h1>
-    <p>A quick and easy breakfast recipe — fluffy pancakes ready in under 20 minutes.</p>
-    <img src="images/pancakes.jpg" alt="Stack of pancakes with syrup">
 
-    <section>
+  <header> 
+    <div>
+    <h1>Classic Pancakes Recipe</h1>
+     <p>A quick and easy breakfast recipe, fluffy pancakes ready in under 20 minutes.</p>
+    </div> 
+     <a href="../index.html" class="home-link">Home</a> 
+  </header>  
+   
+  
+  <main class="recipe">
+    <img src="images/pancakes.jpg" alt="Stack of pancakes with syrup" class="recipe-image">
+   
+
+    <div class="recipe-section">
+    <section class="details"> 
         <h2>Ingredients</h2>
         <ul>
             <li>1 1/2 cups all-purpose flour</li>
@@ -23,7 +35,7 @@
         </ul>
     </section>
 
-    <section>
+    <section class="details">
         <h2>Instructions</h2>
         <ol>
             <li>In a large bowl, sift together the flour, baking powder, salt, and sugar. </li>
@@ -42,5 +54,11 @@
             </li>
         </ol>
     </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright © The Odin Project 2021</p>
+  </footer>
 </body>
 </html>

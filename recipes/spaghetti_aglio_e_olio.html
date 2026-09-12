@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+
+  <header>
+    <div>
     <h1>Spaghetti Aglio e Olio</h1>
     <p>A classic Italian pasta dish with just a handful of ingredients, ready in 15 minutes.</p>
-    <img src="images/spaghetti_aglio_e_olio.avif" alt="A photo of spaghetti aglio e olio">
-    <a href="../index.html">Home</a>
-    <section>
+    
+    </div>   
+     <a href="../index.html" class="home-link">Home</a>
+  </header>
+
+  <main class="recipe">
+      <img src="images/spaghetti_aglio_e_olio.avif" alt="A photo of spaghetti aglio e olio" class="recipe-image">
+    <div class="recipe-section"> 
+    <section class="details">
         <h2>Ingredients</h2>
         <ul>
             <li> 1 lb spaghetti</li>
@@ -24,7 +34,7 @@
         </ul>
     </section>
 
-    <section>
+    <section class="details">
         <h2>Instructions</h2>
         <ol>
             <li> Bring a large pot of salted water to a boil and cook the spaghetti according to package instructions.</li>
@@ -44,5 +54,11 @@
             <li>Serve immediately, topped with Parmesan if desired</li>
         </ol>
     </section>
+    </div>
+  </main> 
+
+  <footer>
+    <p>Copyright © The Odin Project 2021</p>
+  </footer>  
 </body>
 </html>

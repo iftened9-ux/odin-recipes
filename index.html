@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
     <h1>Odin Recipes</h1>
-    <ul>
-      <li> <a  href="recipes/classic_pancakes.html">Classic Pancakes</a> </li>
-     <li> <a href="recipes/spaghetti_aglio_e_olio.html">Spaghetti Aglio e Olio</a> </li>
-     <li> <a href="recipes/guacamole.html">Guacamole</a> </li>
+    </header>
+    <p>Hi, I'm Dragos Iftene! I'm an aspiring front-end web developer and I made this website as part of my learning journey. The design was adapted from a Figma mockup I created, and the recipes and structure follow The Odin Project curriculum. Here you will find three recipes for classic pancakes, spaghetti aglio e olio and guacamole.</p>
+
+    <main>
+    
+    <ul class="recipe-list">  
+
+      <li class="recipe-card">
+        <img src="recipes/images/pancakes.jpg" alt="Classic Pancakes"> 
+        <a  href="recipes/classic_pancakes.html">Classic Pancakes</a>
+      </li>
+
+      <li class="recipe-card"> 
+        <img src="recipes/images/spaghetti_aglio_e_olio.avif" alt="Spaghetti Aglio e Olio">
+        <a href="recipes/spaghetti_aglio_e_olio.html">Spaghetti Aglio e Olio</a> 
+      </li>
+
+     <li class="recipe-card"> 
+        <img src="recipes/images/guacamole.avif" alt="Guacamole">
+        <a href="recipes/guacamole.html">Guacamole</a>
+
+     </li>
     </ul>
+    
+    </main>
+
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
