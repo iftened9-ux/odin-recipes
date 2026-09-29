@@ -15,6 +15,7 @@ header {
 }
 
 
+
 .recipe-list {
     display: flex;
     flex-direction: row;
@@ -30,6 +31,15 @@ header {
 a {
     text-decoration: none;
     color: #7D475C;
+}
+
+.recipe-image {
+    display: block;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 
 .home-link {
@@ -80,19 +90,6 @@ a {
   flex: 1;
 }
 
-.recipe-image {
-    display: block;
-    max-width: 150px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 8px;
-}
-
-
-
-
-
 
 footer {
     width: 100%;
@@ -101,4 +98,25 @@ footer {
     color: aliceblue;  
     margin-top: 200px;
     text-align: center;
+}
+
+@media (max-width: 765px) {
+    .recipe-section {
+        flex-direction: column;
+    }
+
+    .recipe {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .recipe-list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .recipe-card {
+        width: 100%;
+        margin-bottom: 16px;
+    }
 }
