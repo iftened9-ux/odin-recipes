@@ -103,6 +103,7 @@ footer {
 @media (max-width: 765px) {
     .recipe-section {
         flex-direction: column;
+        
     }
 
     .recipe {
@@ -113,6 +114,7 @@ footer {
     .recipe-list {
         flex-direction: column;
         height: auto;
+        gap: 10px;
     }
 
     .recipe-card {
